@@ -1,0 +1,11 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__bicycle{
+    padding:0 4%;
+    margin-bottom:max(calc(117/va.$sp-design-width*100vw),117px);
+    @include mixin.mq(pc){
+        margin-bottom:max(calc(117/va.$pc-design-width*100vw),117px);
+        padding:0;
+    }
+}

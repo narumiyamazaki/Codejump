@@ -1,0 +1,18 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__profile__img{
+    width:max(calc(100/va.$sp-design-width*100vw),100px);
+    height:max(calc(100/va.$sp-design-width*100vw),100px);
+    margin: 0 auto max(calc(15/va.$sp-design-width*100vw),15px);
+    border-radius: 50%;
+    display: block;
+    @include mixin.mq(pc){
+        //flex-direction: row-reverse;
+        width:max(calc(100/va.$pc-design-width*100vw),100px);
+        height:max(calc(100/va.$pc-design-width*100vw),100px);
+        margin-right:max(calc(30/va.$pc-design-width*100vw),30px);
+        margin-bottom:0;
+        margin-left:0;
+    }
+}

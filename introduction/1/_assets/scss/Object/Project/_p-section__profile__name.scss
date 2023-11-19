@@ -1,0 +1,15 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__profile__name{
+    font-family:"Meiryo";
+    font-weight: bold;
+    font-size:max(calc(16/va.$sp-design-width*100vw),16px);
+    line-height: calc(19/16);
+    color:#383E45;
+    margin-bottom:max(calc(15/va.$sp-design-width*100vw),15px);
+    @include mixin.mq(pc){
+        font-size:max(calc(16/va.$pc-design-width*100vw),16px);
+        margin-bottom:max(calc(15/va.$pc-design-width*100vw),15px);
+    }
+}

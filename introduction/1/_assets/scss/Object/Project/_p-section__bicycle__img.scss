@@ -1,0 +1,12 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__bicycle__img{
+    width:max(calc(345/va.$sp-design-width*100vw),345px);
+    object-fit: cover;
+    margin-bottom:max(calc(13/va.$sp-design-width*100vw),13px);
+    @include mixin.mq(pc){
+        width:calc(262/va.$pc-design-width*100vw);
+        margin-bottom:max(calc(13/va.$pc-design-width*100vw),13px);
+    }
+}

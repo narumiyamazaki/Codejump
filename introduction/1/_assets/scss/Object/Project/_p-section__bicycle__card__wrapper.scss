@@ -1,0 +1,15 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__bicycle__card__wrapper{
+    @include mixin.mq(pc){
+        width:calc(262/va.$pc-design-width*100vw);
+    }
+    &:not(:last-child){
+        margin-bottom:max(calc(34/va.$sp-design-width*100vw),34px);
+        @include mixin.mq(pc){
+            margin-bottom:0;
+            margin-right:max(calc(16/va.$pc-design-width*100vw),16px);
+        }    
+    }
+}

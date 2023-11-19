@@ -1,0 +1,22 @@
+@use './p-nav';
+@use './p-nav__wrapper';
+@use './p-nav__item';
+@use './p-nav__item__link';
+@use './p-mv';
+
+//about
+@use './p-section__about';
+@use './p-section__about__heading2';
+@use './p-section__profile__img';
+@use './p-section__profile__wrapper';
+@use './p-section__profile__name';
+@use './p-section__profile__text';
+
+//bicycle
+@use './p-section__bicycle';
+@use './p-section__bicycle__heading2';
+@use './p-section__bicycle__card__container';
+@use './p-section__bicycle__card__wrapper';
+@use './p-section__bicycle__img';
+@use './p-section__bicycle__card__ttl';
+@use './p-section__bicycle__card__text';
