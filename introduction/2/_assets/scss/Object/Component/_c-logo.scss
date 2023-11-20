@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/vars' as va;
+
+.c-logo{
+    width: max(calc(120/va.$sp-design-width*100vw),120px);
+    height: max(calc(40/va.$sp-design-width*100vw),40px);
+    object-fit: contain;
+    margin:max(calc(10/va.$sp-design-width*100vw),10px) 0;
+    margin-left:max(calc(10/va.$sp-design-width*100vw),10px);
+    @include mixin.mq(pc){
+        width: max(calc(120/va.$pc-design-width*100vw),120px);
+        height: max(calc(40/va.$pc-design-width*100vw),40px);
+        margin:max(calc(10/va.$pc-design-width*100vw),10px) 0;
+        margin-left:calc(230/va.$pc-design-width*100vw);
+
+    }
+}
