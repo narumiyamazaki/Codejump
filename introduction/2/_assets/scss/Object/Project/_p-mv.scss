@@ -2,11 +2,12 @@
 @use '../../Foundation/mixin';
 
 .p-mv{
-    height:600px;
     object-fit: cover;
-    margin-bottom:max(calc(89/va.$sp-design-width*100vw),89px);
-    width:100vw;
+    width:max(calc(355/va.$sp-design-width*100vw),355px);
+    height:max(calc(142/va.$sp-design-width*100vw),142px);
+    margin:0 auto;
     @include mixin.mq(pc){
-        margin-bottom:max(calc(89/va.$pc-design-width*100vw),89px);
+        width:max(calc(1000/va.$sp-design-width*100vw),1000px);
+        height:max(calc(400/va.$pc-design-width*100vw),400px);
     }
 }

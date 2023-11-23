@@ -1,0 +1,7 @@
+.p-heading1{
+    margin:max(calc(60/va.$sp-design-width*100vw),60px) 0 max(calc(15/va.$sp-design-width*100vw),15px);
+    @include mixin.mq(pc){
+        margin:max(calc(60/va.$pc-design-width*100vw),60px) 0 max(calc(15/va.$pc-design-width*100vw),15px);
+        //padding:max(calc(60/va.$pc-design-width*100vw),60px) max(calc(10/va.$pc-design-width*100vw),10px);
+    }
+}

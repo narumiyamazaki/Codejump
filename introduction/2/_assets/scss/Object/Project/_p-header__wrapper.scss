@@ -2,7 +2,6 @@
 @use '../../Foundation/mixin';
 
 .p-header__wrapper{
-    background-color: #F4F9FF;
     height:max(calc(295/va.$sp-design-width*100vw),295px);
     //padding:max(calc(60/va.$sp-design-width*100vw),60px) max(calc(10/va.$sp-design-width*100vw),10px);
     @include mixin.mq(pc){
