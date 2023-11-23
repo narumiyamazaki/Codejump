@@ -1,0 +1,8 @@
+@use '../Foundation/mixin';
+
+.l-header{
+    @include mixin.mq(pc){
+        padding-left:max(calc(140/va.$pc-design-width*100vw),140px);
+        padding-bottom:max(calc(15/va.$pc-design-width*100vw),15px);
+    }
+}
