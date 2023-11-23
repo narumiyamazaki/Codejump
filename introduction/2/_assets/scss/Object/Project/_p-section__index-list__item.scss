@@ -1,0 +1,16 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__index-list__item{
+    width:max(calc(279/va.$sp-design-width*100vw),279px);
+    font-size:max(calc(14/va.$sp-design-width*100vw),14px);
+    line-height: calc(17/14);
+    color:#333333;
+    &:not(:last-child){
+        margin-bottom:max(calc(23/va.$pc-design-width*100vw),23px);
+    }
+    @include mixin.mq(pc){
+        width:100%;
+        margin-bottom:max(calc(26/va.$pc-design-width*100vw),26px);
+    }
+}
