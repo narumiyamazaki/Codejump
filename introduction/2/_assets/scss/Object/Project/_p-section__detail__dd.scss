@@ -1,0 +1,9 @@
+.p-section__detail__dd{
+    font-family:'Meiryo';
+    line-height: calc(14/17);
+    color:#333333;
+    font-size:max(calc(14/va.$sp-design-width*100vw),14px);
+    @include mixin.mq(pc){
+        font-size:max(calc(14/va.$pc-design-width*100vw),14px);
+    }
+}

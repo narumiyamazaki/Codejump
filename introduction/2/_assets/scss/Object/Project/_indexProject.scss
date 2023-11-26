@@ -1,6 +1,7 @@
 @use './p-header__wrapper';
 @use './p-heading1';
 @use './p-mv';
+@use './p-main';
 
 //index
 @use './p-section__index-list__item';
@@ -8,3 +9,8 @@
 
 //detail
 @use './p-section__detail';
+@use './p-section__detail__tlt';
+@use './p-section__detail__dl__container';
+@use './p-section__detail__dl__wrapper';
+@use './p-section__detail__dt';
+@use './p-section__detail__dd';
