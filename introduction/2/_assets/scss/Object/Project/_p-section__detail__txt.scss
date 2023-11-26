@@ -1,0 +1,15 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__detail__txt{
+    font-family: 'Meiryo';
+    font-size:max(calc(14/va.$sp-design-width*100vw),14px);
+    line-height: calc(17/14);
+    width:max(calc(290/va.$sp-design-width*100vw),290px);
+    margin-bottom:max(calc(21/va.$sp-design-width*100vw),21px);
+    @include mixin.mq(pc){
+        font-size:max(calc(14/va.$pc-design-width*100vw),14px);
+        width:max(calc(262/va.$pc-design-width*100vw),262px);
+        margin-bottom:max(calc(21/va.$pc-design-width*100vw),21px);
+    }
+}

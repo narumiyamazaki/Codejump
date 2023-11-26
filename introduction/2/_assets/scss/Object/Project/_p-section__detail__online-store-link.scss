@@ -1,0 +1,10 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__detail__online-store-link{
+    font-family: 'Meiryo';
+    font-size:max(calc(14/va.$sp-design-width*100vw),14px);
+    line-height: calc(17/14);
+    text-decoration: underline;
+    color: #333333;
+}

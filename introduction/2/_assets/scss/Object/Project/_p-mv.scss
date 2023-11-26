@@ -6,8 +6,9 @@
     width:max(calc(355/va.$sp-design-width*100vw),355px);
     height:max(calc(142/va.$sp-design-width*100vw),142px);
     margin:0 auto;
+    display: block;
     @include mixin.mq(pc){
-        width:max(calc(1000/va.$sp-design-width*100vw),1000px);
-        height:max(calc(400/va.$pc-design-width*100vw),400px);
+        width:calc(1000/va.$pc-design-width*100vw);
+        height:calc(400/va.$pc-design-width*100vw);
     }
 }

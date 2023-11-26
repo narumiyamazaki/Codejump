@@ -2,10 +2,10 @@
 @use '../../Foundation/mixin';
 
 .p-header__wrapper{
-    height:max(calc(295/va.$sp-design-width*100vw),295px);
+    height:max(calc(295/va.$sp-design-width*100vh),295px);
     //padding:max(calc(60/va.$sp-design-width*100vw),60px) max(calc(10/va.$sp-design-width*100vw),10px);
     @include mixin.mq(pc){
-        height:max(calc(295/va.$sp-design-width*100vw),295px);
+        height:max(calc(558/va.$pc-design-width*100vh),558px);
         //padding:max(calc(60/va.$pc-design-width*100vw),60px) max(calc(10/va.$pc-design-width*100vw),10px);
     }
 }

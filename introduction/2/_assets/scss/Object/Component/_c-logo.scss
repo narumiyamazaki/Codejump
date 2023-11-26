@@ -2,13 +2,13 @@
 @use '../../Foundation/vars' as va;
 
 .c-logo{
-    width: max(calc(355/va.$sp-design-width*100vw),355px);
+    width: max(calc(145/va.$sp-design-width*100vw),145px);
     //height: max(calc(40/va.$sp-design-width*100vw),40px);
     object-fit: contain;
     margin:0 auto;
     //argin-left:max(calc(10/va.$sp-design-width*100vw),10px);
     @include mixin.mq(pc){
-        width: max(calc(1000/va.$pc-design-width*100vw),1000px);
+        width: max(calc(146/va.$pc-design-width*100vw),146px);
         //height: max(calc(40/va.$pc-design-width*100vw),40px);
         //margin:max(calc(10/va.$pc-design-width*100vw),10px) 0;
     }

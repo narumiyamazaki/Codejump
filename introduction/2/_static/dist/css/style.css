@@ -18,10 +18,8 @@
  */
 ::before,
 ::after {
-  text-decoration: inherit;
-  /* 1 */
-  vertical-align: inherit;
-  /* 2 */
+  text-decoration: inherit; /* 1 */
+  vertical-align: inherit; /* 2 */
 }
 
 /**
@@ -34,21 +32,14 @@
  * 6. Breaks words to prevent overflow in all browsers (opinionated).
  */
 html {
-  cursor: default;
-  /* 1 */
-  line-height: 1.5;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  tab-size: 4;
-  /* 3 */
+  cursor: default; /* 1 */
+  line-height: 1.5; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
   -webkit-tap-highlight-color: transparent;
-  -ms-text-size-adjust: 100%;
-  /* 5 */
-  -webkit-text-size-adjust: 100%;
-  /* 5 */
-  word-break: break-word;
-  /* 6 */
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
 }
 
 /* Sections
@@ -98,10 +89,8 @@ ul ul {
  * 2. Show the overflow in Edge 18- and IE.
  */
 hr {
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -125,10 +114,8 @@ nav ul {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -163,10 +150,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -259,10 +244,8 @@ select {
  * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
  */
 button {
-  overflow: visible;
-  /* 1 */
-  text-transform: none;
-  /* 2 */
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
 }
 
 /**
@@ -280,10 +263,8 @@ button,
  * 2. Correct the padding in Firefox.
  */
 fieldset {
-  border: 1px solid #a0a0a0;
-  /* 1 */
-  padding: 0.35em 0.75em 0.625em;
-  /* 2 */
+  border: 1px solid #a0a0a0; /* 1 */
+  padding: 0.35em 0.75em 0.625em; /* 2 */
 }
 
 /**
@@ -298,14 +279,10 @@ input {
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  */
 legend {
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  white-space: normal;
-  /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -313,10 +290,8 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
  */
 progress {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
 }
 
 /**
@@ -332,12 +307,9 @@ select {
  * 3. Change the resize direction in all browsers (opinionated).
  */
 textarea {
-  margin: 0;
-  /* 1 */
-  overflow: auto;
-  /* 2 */
-  resize: vertical;
-  /* 3 */
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+  resize: vertical; /* 3 */
 }
 
 /**
@@ -353,10 +325,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -387,10 +357,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /**
@@ -488,10 +456,8 @@ select,
 summary,
 textarea,
 [tabindex] {
-  -ms-touch-action: manipulation;
-  /* 1 */
-  touch-action: manipulation;
-  /* 2 */
+  -ms-touch-action: manipulation; /* 1 */
+  touch-action: manipulation; /* 2 */
 }
 
 /**
@@ -551,301 +517,216 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.l-body {
+  background-color: #F4F9FF;
+}
+
 .l-header {
-  display: flex;
-  justify-content: space-between;
-  /*
-  //headerを固定する場合
-  position:fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  @include mixin.mq(pc){
-      //flex-direction: row-reverse;
+  padding-left: max(2.6666666667vw, 10px);
+}
+@media screen and (min-width: 1024px) {
+  .l-header {
+    padding-left: 10.9375vw;
+    padding-bottom: 1.171875vw;
   }
-  */
 }
 
 .l-footer {
   font-size: max(2.6666666667vw, 10px);
   font-family: "Meiryo";
   line-height: 1.2;
-  color: #383E45;
-  text-align: center;
-  margin-bottom: max(3.2vw, 12px);
+  color: #333333;
+  margin-bottom: max(4.5333333333vw, 12px);
+  padding-left: max(3.125vw, 40px);
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1024px) {
   .l-footer {
-    font-size: max(0.8333333333vw, 10px);
-    margin-bottom: max(1vw, 12px);
+    font-size: max(0.78125vw, 10px);
+    margin-bottom: max(1.328125vw, 12px);
+    padding-left: max(26.5625vw, 340px);
   }
 }
 
-.p-nav {
-  display: flex;
-  margin-right: max(3.2vw, 12px);
+.p-header__wrapper {
+  height: max(78.6666666667vh, 295px);
 }
-@media screen and (min-width: 601px) {
-  .p-nav {
-    margin-right: 19.3333333333vw;
+@media screen and (min-width: 1024px) {
+  .p-header__wrapper {
+    height: max(43.59375vh, 558px);
   }
 }
 
-.p-nav__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.p-heading1 {
+  margin: max(16vw, 60px) 0 max(4vw, 15px);
 }
-
-.p-nav__item:first-child {
-  margin-right: max(8.8vw, 33px);
-}
-@media screen and (min-width: 601px) {
-  .p-nav__item:first-child {
-    margin-right: max(2.75vw, 33px);
-  }
-}
-
-.p-nav__item__link {
-  font-size: max(3.7333333333vw, 14px);
-  font-family: "Meiryo";
-  line-height: 1.2142857143;
-  color: #24292E;
-}
-@media screen and (min-width: 601px) {
-  .p-nav__item__link {
-    font-size: max(1.1666666667vw, 14px);
-    margin-right: max(2.75vw, 33px);
+@media screen and (min-width: 1024px) {
+  .p-heading1 {
+    margin: max(4.6875vw, 60px) 0 max(1.171875vw, 15px);
   }
 }
 
 .p-mv {
-  height: 600px;
   object-fit: cover;
-  margin-bottom: max(23.7333333333vw, 89px);
-  width: 100vw;
-}
-@media screen and (min-width: 601px) {
-  .p-mv {
-    margin-bottom: max(7.4166666667vw, 89px);
-  }
-}
-
-.p-section__about {
-  padding: 0 4%;
-  margin-bottom: max(24.8vw, 93px);
-}
-@media screen and (min-width: 601px) {
-  .p-section__about {
-    margin-bottom: max(8.75vw, 105px);
-    padding: 0;
-  }
-}
-
-.p-section__about__heading2 {
-  font-size: max(8.5333333333vw, 32px);
-  font-weight: bold;
-  font-family: "Meiryo";
-  line-height: 1.1875;
-  color: #383E45;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-bottom: max(17.8666666667vw, 67px);
-}
-.p-section__about__heading2::after {
-  content: "";
-  position: absolute;
-  bottom: -7px;
-  height: 1px;
-  width: max(26.9333333333vw, 101px);
-  background-color: #383E45;
-}
-@media screen and (min-width: 601px) {
-  .p-section__about__heading2 {
-    font-size: max(2.6666666667vw, 32px);
-    margin-bottom: max(5.5833333333vw, 67px);
-  }
-  .p-section__about__heading2::after {
-    width: max(8.4166666667vw, 101px);
-  }
-}
-
-.p-section__profile__img {
-  width: max(26.6666666667vw, 100px);
-  height: max(26.6666666667vw, 100px);
-  margin: 0 auto max(4vw, 15px);
-  border-radius: 50%;
+  width: max(94.6666666667vw, 355px);
+  height: max(37.8666666667vw, 142px);
+  margin: 0 auto;
   display: block;
 }
-@media screen and (min-width: 601px) {
-  .p-section__profile__img {
-    width: max(8.3333333333vw, 100px);
-    height: max(8.3333333333vw, 100px);
-    margin-right: max(2.5vw, 30px);
-    margin-bottom: 0;
-    margin-left: 0;
+@media screen and (min-width: 1024px) {
+  .p-mv {
+    width: 78.125vw;
+    height: 31.25vw;
   }
 }
 
-@media screen and (min-width: 601px) {
-  .p-section__profile__wrapper {
-    display: flex;
-    justify-content: center;
+.p-main {
+  width: max(78.6666666667vw, 295px);
+}
+@media screen and (min-width: 1024px) {
+  .p-main {
+    width: max(78.125vw, 1000px);
   }
 }
 
-.p-section__profile__name {
-  font-family: "Meiryo";
-  font-weight: bold;
-  font-size: max(4.2666666667vw, 16px);
-  line-height: 1.1875;
-  color: #383E45;
-  margin-bottom: max(4vw, 15px);
-}
-@media screen and (min-width: 601px) {
-  .p-section__profile__name {
-    font-size: max(1.3333333333vw, 16px);
-    margin-bottom: max(1.25vw, 15px);
-  }
-}
-
-.p-section__profile__text {
-  font-family: "Meiryo";
+.p-section__index-list__item {
+  width: max(74.4vw, 279px);
   font-size: max(3.7333333333vw, 14px);
   line-height: 1.2142857143;
-  color: #383E45;
-  width: 86.9333333333vw;
+  color: #333333;
 }
-@media screen and (min-width: 601px) {
-  .p-section__profile__text {
-    font-size: max(1.1666666667vw, 14px);
-    width: max(33.0833333333vw, 397px);
+.p-section__index-list__item:not(:last-child) {
+  margin-bottom: max(1.796875vw, 23px);
+}
+@media screen and (min-width: 1024px) {
+  .p-section__index-list__item {
+    width: 100%;
+    margin-bottom: max(2.03125vw, 26px);
   }
 }
 
-.p-section__bicycle {
-  padding: 0 4%;
-  margin-bottom: max(31.2vw, 117px);
-}
-@media screen and (min-width: 601px) {
-  .p-section__bicycle {
-    margin-bottom: max(9.75vw, 117px);
-    padding: 0;
-  }
-}
-
-.p-section__bicycle__heading2 {
-  font-size: max(8.5333333333vw, 32px);
+.p-section__index__heading2 {
+  font-size: max(4.8vw, 18px);
   font-weight: bold;
+  line-height: 1.2222222222;
   font-family: "Meiryo";
-  line-height: 1.1875;
-  color: #383E45;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-bottom: max(17.8666666667vw, 67px);
+  color: #333333;
 }
-.p-section__bicycle__heading2::after {
-  content: "";
-  position: absolute;
-  bottom: -7px;
-  height: 1px;
-  width: max(31.2vw, 117px);
-  background-color: #383E45;
-}
-@media screen and (min-width: 601px) {
-  .p-section__bicycle__heading2 {
-    font-size: max(2.6666666667vw, 32px);
-    margin-bottom: max(5.5833333333vw, 67px);
-  }
-  .p-section__bicycle__heading2::after {
-    width: max(9.75vw, 117px);
+@media screen and (min-width: 1024px) {
+  .p-section__index__heading2 {
+    font-size: max(1.40625vw, 18px);
   }
 }
 
-.p-section__bicycle__card__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-@media screen and (min-width: 601px) {
-  .p-section__bicycle__card__container {
-    flex-direction: row;
-  }
-}
-
-@media screen and (min-width: 601px) {
-  .p-section__bicycle__card__wrapper {
-    width: 21.8333333333vw;
-  }
-}
-.p-section__bicycle__card__wrapper:not(:last-child) {
-  margin-bottom: max(9.0666666667vw, 34px);
-}
-@media screen and (min-width: 601px) {
-  .p-section__bicycle__card__wrapper:not(:last-child) {
-    margin-bottom: 0;
-    margin-right: max(1.3333333333vw, 16px);
-  }
-}
-
-.p-section__bicycle__img {
-  width: max(92vw, 345px);
-  object-fit: cover;
-  margin-bottom: max(3.4666666667vw, 13px);
-}
-@media screen and (min-width: 601px) {
-  .p-section__bicycle__img {
-    width: 21.8333333333vw;
-    margin-bottom: max(1.0833333333vw, 13px);
-  }
-}
-
-.p-section__bicycle__card__ttl {
-  font-size: max(4.2666666667vw, 16px);
-  font-family: "Meiryo";
-  line-height: 1.1875;
-  font-weight: bold;
-  text-align: center;
-  color: #383E45;
+.p-section__index__heading2 {
   margin-bottom: max(4.5333333333vw, 17px);
 }
-@media screen and (min-width: 601px) {
-  .p-section__bicycle__card__ttl {
-    font-size: max(1.3333333333vw, 16px);
-    margin-bottom: max(1.4166666667vw, 17px);
+@media screen and (min-width: 1024px) {
+  .p-section__index__heading2 {
+    margin-bottom: max(1.328125vw, 17px);
   }
 }
 
-.p-section__bicycle__card__text {
-  font-size: max(3.7333333333vw, 14px);
-  font-family: "Meiryo";
-  line-height: 1.2142857143;
-  color: #383E45;
+.p-section__detail {
+  margin-bottom: max(32.5333333333vw, 122px);
 }
-@media screen and (min-width: 601px) {
-  .p-section__bicycle__card__text {
-    font-size: max(1.1666666667vw, 14px);
+@media screen and (min-width: 1024px) {
+  .p-section__detail {
+    margin-bottom: max(31.4666666667vw, 118px);
   }
+}
+
+.p-section__detail__tlt {
+  font-family: "Meiryo";
+  font-weight: bold;
+  font-size: max(4.8vw, 18px);
+  line-height: 1.2222222222;
+  margin-bottom: max(12vw, 45px);
+  color: #333333;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__tlt {
+    margin-bottom: max(12vw, 45px);
+    font-size: max(1.40625vw, 18px);
+  }
+}
+
+.p-section__detail__dl__container {
+  margin-bottom: max(12.8vw, 48px);
+  padding: 5.3333333333vw 0;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__dl__container {
+    margin-bottom: max(3.75vw, 48px);
+    padding: 1.5625vw 0;
+  }
+}
+
+.p-section__detail__dl__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: max(61.6vw, 231px);
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__dl__wrapper {
+    width: max(18.046875vw, 231px);
+  }
+}
+
+.p-section__detail__dt {
+  font-family: "Meiryo";
+  line-height: 0.7777777778;
+  color: #333333;
+  font-size: max(3.7333333333vw, 14px);
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__dt {
+    font-size: max(1.09375vw, 14px);
+  }
+}
+
+.p-section__detail__dd {
+  font-family: "Meiryo";
+  line-height: 0.8235294118;
+  color: #333333;
+  font-size: max(3.7333333333vw, 14px);
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__dd {
+    font-size: max(1.09375vw, 14px);
+  }
+}
+
+.p-section__detail__txt {
+  font-family: "Meiryo";
+  font-size: max(3.7333333333vw, 14px);
+  line-height: 1.2142857143;
+  width: max(77.3333333333vw, 290px);
+  margin-bottom: max(5.6vw, 21px);
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__txt {
+    font-size: max(1.09375vw, 14px);
+    width: max(20.46875vw, 262px);
+    margin-bottom: max(1.640625vw, 21px);
+  }
+}
+
+.p-section__detail__online-store-link {
+  font-family: "Meiryo";
+  font-size: max(3.7333333333vw, 14px);
+  line-height: 1.2142857143;
+  text-decoration: underline;
+  color: #333333;
 }
 
 .c-logo {
-  width: max(32vw, 120px);
-  height: max(10.6666666667vw, 40px);
+  width: max(38.6666666667vw, 145px);
   object-fit: contain;
-  margin: max(2.6666666667vw, 10px) 0;
-  margin-left: max(2.6666666667vw, 10px);
+  margin: 0 auto;
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1024px) {
   .c-logo {
-    width: max(10vw, 120px);
-    height: max(3.3333333333vw, 40px);
-    margin: max(0.8333333333vw, 10px) 0;
-    margin-left: 19.1666666667vw;
+    width: max(11.40625vw, 146px);
   }
 }
 /*# sourceMappingURL=style.css.map */
