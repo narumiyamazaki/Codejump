@@ -7,7 +7,7 @@
     margin-bottom:max(calc(65px/va.$sp-design-width*100vw),65px);
     @include mixin.mq(pc){
         padding:max(calc(35/va.$pc-design-width*100vw),35px) 0 max(calc(33/va.$pc-design-width*100vw),33px) max(calc(200/va.$pc-design-width*100vw),200px);
-        width:max(calc(1000/va.$pc-design-width*100vw),1000px);
+        width:calc(1000/va.$pc-design-width*100vw);
         height:max(calc(400/va.$pc-design-width*100vw),400px);
         margin-bottom:max(calc(65/va.$pc-design-width*100vw),65px);
     }

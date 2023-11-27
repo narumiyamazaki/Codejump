@@ -1,5 +1,6 @@
 @use '../../Foundation/vars' as va;
 @use '../../Foundation/mixin';
+@use '../../Foundation/extend';
 
 .p-section__detail__heading2{
     @extend %p-section__tlt;
