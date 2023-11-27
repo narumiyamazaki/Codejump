@@ -6,9 +6,12 @@
 //index
 @use './p-section__index-list__item';
 @use './p-section__index__heading2';
+@use './p-section__index-list';
+@use './p-section__index';
 
 //detail
 @use './p-section__detail';
+@use './p-detail__img';
 @use './p-section__detail__heading2';
 @use './p-section__detail__tlt';
 @use './p-section__detail__dl__container';

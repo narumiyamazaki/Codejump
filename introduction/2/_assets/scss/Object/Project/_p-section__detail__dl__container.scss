@@ -4,6 +4,8 @@
 .p-section__detail__dl__container{
     margin-bottom:max(calc(48/va.$sp-design-width*100vw),48px);
     padding:max(calc(20/va.$sp-design-width*100vw),) 0;
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
     @include mixin.mq(pc){
         margin-bottom:max(calc(48/va.$pc-design-width*100vw),48px);
         padding:max(calc(20/va.$pc-design-width*100vw),) 0;

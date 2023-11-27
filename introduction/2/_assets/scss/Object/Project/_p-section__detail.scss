@@ -2,7 +2,8 @@
 @use '../../Foundation/mixin';
 
 .p-section__detail{
-    margin-bottom:max(calc(122/va.$sp-design-width*100vw),122px);
+    margin:0 auto max(calc(122/va.$sp-design-width*100vw),122px);
+    width:calc(295/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
         margin-bottom:max(calc(118/va.$sp-design-width*100vw),118px);
     }

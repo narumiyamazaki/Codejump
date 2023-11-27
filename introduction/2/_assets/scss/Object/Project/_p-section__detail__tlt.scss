@@ -6,7 +6,7 @@
     font-weight: bold;
     font-size:max(calc(18/va.$sp-design-width*100vw),18px);
     line-height: calc(22/18);
-    margin-bottom:max(calc(45/va.$sp-design-width*100vw),45px);
+    margin-bottom:max(calc(26/va.$sp-design-width*100vw),26px);
     color:#333333;
     @include mixin.mq(pc){
         margin-bottom:max(calc(45/va.$sp-design-width*100vw),45px);

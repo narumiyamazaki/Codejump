@@ -13,6 +13,7 @@
     line-height: calc(22/18);
     font-family: 'Meiryo';
     color:#333333;
+    text-transform: uppercase;
     @include mixin.mq(pc){
         font-size:max(calc(18/va.$pc-design-width*100vw),18px);
     }

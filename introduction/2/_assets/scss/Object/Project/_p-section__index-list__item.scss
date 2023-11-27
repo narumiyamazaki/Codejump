@@ -6,6 +6,7 @@
     font-size:max(calc(14/va.$sp-design-width*100vw),14px);
     line-height: calc(17/14);
     color:#333333;
+    font-family: 'Meiryo';
     @include mixin.mq(pc){
         font-size:max(calc(14/va.$pc-design-width*100vw),14px);
     }

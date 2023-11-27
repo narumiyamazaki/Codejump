@@ -18,10 +18,8 @@
  */
 ::before,
 ::after {
-  text-decoration: inherit;
-  /* 1 */
-  vertical-align: inherit;
-  /* 2 */
+  text-decoration: inherit; /* 1 */
+  vertical-align: inherit; /* 2 */
 }
 
 /**
@@ -34,21 +32,14 @@
  * 6. Breaks words to prevent overflow in all browsers (opinionated).
  */
 html {
-  cursor: default;
-  /* 1 */
-  line-height: 1.5;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  tab-size: 4;
-  /* 3 */
+  cursor: default; /* 1 */
+  line-height: 1.5; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
   -webkit-tap-highlight-color: transparent;
-  -ms-text-size-adjust: 100%;
-  /* 5 */
-  -webkit-text-size-adjust: 100%;
-  /* 5 */
-  word-break: break-word;
-  /* 6 */
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
 }
 
 /* Sections
@@ -98,10 +89,8 @@ ul ul {
  * 2. Show the overflow in Edge 18- and IE.
  */
 hr {
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -125,10 +114,8 @@ nav ul {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -163,10 +150,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -259,10 +244,8 @@ select {
  * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
  */
 button {
-  overflow: visible;
-  /* 1 */
-  text-transform: none;
-  /* 2 */
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
 }
 
 /**
@@ -280,10 +263,8 @@ button,
  * 2. Correct the padding in Firefox.
  */
 fieldset {
-  border: 1px solid #a0a0a0;
-  /* 1 */
-  padding: 0.35em 0.75em 0.625em;
-  /* 2 */
+  border: 1px solid #a0a0a0; /* 1 */
+  padding: 0.35em 0.75em 0.625em; /* 2 */
 }
 
 /**
@@ -298,14 +279,10 @@ input {
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  */
 legend {
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  white-space: normal;
-  /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -313,10 +290,8 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
  */
 progress {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
 }
 
 /**
@@ -332,12 +307,9 @@ select {
  * 3. Change the resize direction in all browsers (opinionated).
  */
 textarea {
-  margin: 0;
-  /* 1 */
-  overflow: auto;
-  /* 2 */
-  resize: vertical;
-  /* 3 */
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+  resize: vertical; /* 3 */
 }
 
 /**
@@ -353,10 +325,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -387,10 +357,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /**
@@ -488,10 +456,8 @@ select,
 summary,
 textarea,
 [tabindex] {
-  -ms-touch-action: manipulation;
-  /* 1 */
-  touch-action: manipulation;
-  /* 2 */
+  -ms-touch-action: manipulation; /* 1 */
+  touch-action: manipulation; /* 2 */
 }
 
 /**
@@ -551,6 +517,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 .l-body {
   background-color: #F4F9FF;
 }
@@ -582,11 +552,11 @@ body {
 }
 
 .p-header__wrapper {
-  height: max(78.6666666667vh, 295px);
+  height: max(78.6666666667vw, 295px);
 }
 @media screen and (min-width: 1024px) {
   .p-header__wrapper {
-    height: max(43.59375vh, 558px);
+    height: max(43.59375vw, 558px);
   }
 }
 
@@ -613,10 +583,6 @@ body {
   }
 }
 
-.p-main {
-  width: max(78.6666666667vw, 295px);
-  margin-left: 10.6666666667vw;
-}
 @media screen and (min-width: 1024px) {
   .p-main {
     width: max(78.125vw, 1000px);
@@ -629,6 +595,7 @@ body {
   font-size: max(3.7333333333vw, 14px);
   line-height: 1.2142857143;
   color: #333333;
+  font-family: "Meiryo";
 }
 @media screen and (min-width: 1024px) {
   .p-section__index-list__item {
@@ -651,6 +618,7 @@ body {
   line-height: 1.2222222222;
   font-family: "Meiryo";
   color: #333333;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 1024px) {
   .p-section__detail__heading2, .p-section__index__heading2 {
@@ -667,13 +635,45 @@ body {
   }
 }
 
+.p-section__index-list {
+  padding: 0;
+  margin-left: 4.8vw;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__index-list {
+    margin-left: 0;
+  }
+}
+
+.p-section__index {
+  background-color: #FFFFFF;
+  padding: max(9.3333333333vw, 35px) 0 max(8vw, 30px) max(10.6666666667vw, 40px);
+  margin-bottom: max(17.3333333333vw, 65px);
+}
+@media screen and (min-width: 1024px) {
+  .p-section__index {
+    padding: max(2.734375vw, 35px) 0 max(2.578125vw, 33px) max(15.625vw, 200px);
+    width: 78.125vw;
+    height: max(31.25vw, 400px);
+    margin-bottom: max(5.078125vw, 65px);
+  }
+}
+
 .p-section__detail {
-  margin-bottom: max(32.5333333333vw, 122px);
+  margin: 0 auto max(32.5333333333vw, 122px);
+  width: 78.6666666667vw;
 }
 @media screen and (min-width: 1024px) {
   .p-section__detail {
     margin-bottom: max(31.4666666667vw, 118px);
   }
+}
+
+.p-detail__img {
+  width: 78.6666666667vw;
+  height: 78.6666666667vw;
+  object-fit: cover;
+  margin-bottom: 7.4666666667vw;
 }
 
 .p-section__detail__heading2 {
@@ -690,7 +690,7 @@ body {
   font-weight: bold;
   font-size: max(4.8vw, 18px);
   line-height: 1.2222222222;
-  margin-bottom: max(12vw, 45px);
+  margin-bottom: max(6.9333333333vw, 26px);
   color: #333333;
 }
 @media screen and (min-width: 1024px) {
@@ -703,6 +703,8 @@ body {
 .p-section__detail__dl__container {
   margin-bottom: max(12.8vw, 48px);
   padding: 5.3333333333vw 0;
+  border-top: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
 }
 @media screen and (min-width: 1024px) {
   .p-section__detail__dl__container {
