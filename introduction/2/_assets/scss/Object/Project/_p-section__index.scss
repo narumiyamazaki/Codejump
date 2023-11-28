@@ -6,9 +6,9 @@
     padding:max(calc(35/va.$sp-design-width*100vw),35px) 0 max(calc(30/va.$sp-design-width*100vw),30px) max(calc(40/va.$sp-design-width*100vw),40px);
     margin-bottom:max(calc(65/va.$sp-design-width*100vw),65px);
     @include mixin.mq(pc){
-        padding:max(calc(35/va.$pc-design-width*100vw),35px) 0 max(calc(33/va.$pc-design-width*100vw),33px) max(calc(200/va.$pc-design-width*100vw),200px);
+        padding:max(calc(35/va.$pc-design-width*100vw)) 0 max(calc(33/va.$pc-design-width*100vw)) max(calc(200/va.$pc-design-width*100vw));
         width:calc(1000/va.$pc-design-width*100vw);
-        height:max(calc(400/va.$pc-design-width*100vw),400px);
+        //height:max(calc(400/va.$pc-design-width*100vw),400px);
         margin: 0 auto max(calc(65/va.$pc-design-width*100vw),65px);
     }
 }

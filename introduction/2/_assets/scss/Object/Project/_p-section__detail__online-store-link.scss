@@ -8,4 +8,7 @@
     text-decoration: underline;
     text-underline-offset: 8px;
     color: #333333;
+    @include mixin.mq(pc){
+        font-size:max(calc(14/va.$pc-design-width*100vw),14px);
+    }
 }

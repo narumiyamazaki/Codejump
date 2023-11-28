@@ -5,6 +5,7 @@
     margin:0 auto max(calc(122/va.$sp-design-width*100vw),122px);
     width:calc(295/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
-        margin-bottom:max(calc(118/va.$sp-design-width*100vw),118px);
+        width:calc(600/va.$pc-design-width*100vw);
+        margin:0 auto max(calc(118/va.$pc-design-width*100vw),118px);
     }
 }

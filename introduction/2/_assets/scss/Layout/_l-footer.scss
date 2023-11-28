@@ -11,6 +11,6 @@
     @include mixin.mq(pc){
         font-size:max(calc(10/va.$pc-design-width*100vw),10px);
         margin-bottom:max(calc(17/va.$pc-design-width*100vw),12px);
-        padding-left:max(calc(340/va.$pc-design-width*100vw),340px);
+        padding-left:calc(340/va.$pc-design-width*100vw);
     }
 }

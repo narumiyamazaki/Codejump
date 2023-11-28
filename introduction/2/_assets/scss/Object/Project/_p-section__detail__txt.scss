@@ -10,6 +10,6 @@
     @include mixin.mq(pc){
         font-size:max(calc(14/va.$pc-design-width*100vw),14px);
         width:max(calc(262/va.$pc-design-width*100vw),262px);
-        margin-bottom:max(calc(21/va.$pc-design-width*100vw),21px);
+        margin-bottom:calc(21/va.$pc-design-width*100vw);
     }
 }

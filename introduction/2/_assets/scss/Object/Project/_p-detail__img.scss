@@ -6,4 +6,9 @@
     height:calc(295/va.$sp-design-width*100vw);
     object-fit: cover;
     margin-bottom:calc(28/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        height:calc(270/va.$pc-design-width*100vw);
+        width:calc(270/va.$pc-design-width*100vw);
+        margin-bottom:0;
+    }
 }
