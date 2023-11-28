@@ -7,7 +7,7 @@
     line-height: calc(12/10);
     color:#333333;
     margin-bottom:max(calc(17/va.$sp-design-width*100vw),12px);
-    padding-left:max(calc(40/va.$pc-design-width*100vw),40px);
+    padding-left:calc(40/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
         font-size:max(calc(10/va.$pc-design-width*100vw),10px);
         margin-bottom:max(calc(17/va.$pc-design-width*100vw),12px);

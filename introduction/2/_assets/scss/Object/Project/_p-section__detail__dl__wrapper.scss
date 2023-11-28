@@ -4,7 +4,11 @@
 .p-section__detail__dl__wrapper{
     display: flex;
     justify-content: space-between;
-    width:max(calc(231/va.$sp-design-width*100vw),231px);
+    //margin-right:calc(104/va.$sp-design-width*100vw);
+    width:calc(231/va.$sp-design-width*100vw);
+    &:not(:last-child){
+        margin-bottom:calc(7/va.$sp-design-width*100vw);
+    }
     @include mixin.mq(pc){
         width:max(calc(231/va.$pc-design-width*100vw),231px);
     }

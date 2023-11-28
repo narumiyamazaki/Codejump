@@ -5,7 +5,7 @@
     //width:max(calc(295/va.$sp-design-width*100vw),295px);
     //margin-left:max(40/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
-        width:max(calc(1000/va.$pc-design-width*100vw),1000px);
-        margin-left:calc(140/va.$sp-design-width*100vw);
+        width:calc(1000/va.$pc-design-width*100vw);
+        margin:0 auto;
     }
 }
