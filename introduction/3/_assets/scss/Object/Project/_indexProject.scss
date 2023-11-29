@@ -1,6 +1,8 @@
 @use './p-mv';
+@use './p-content__wrapper';
 @use './p-heading1';
 @use './p-main';
 
 //index
 @use './p-section__index';
+@use './p-section__index__heading2';

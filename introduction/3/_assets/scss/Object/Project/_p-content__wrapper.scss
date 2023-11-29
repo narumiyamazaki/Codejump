@@ -1,0 +1,9 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-content__wrapper{
+    @include mixin.mq(pc){
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}

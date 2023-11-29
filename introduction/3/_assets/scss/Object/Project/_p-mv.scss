@@ -8,8 +8,9 @@
     margin-bottom:max(calc(60/va.$sp-design-width*100vw),60px);
     width:100vw;
     @include mixin.mq(pc){
-        margin-bottom:max(calc(60/va.$pc-design-width*100vw),60px);
+        margin:0 auto max(calc(60/va.$pc-design-width*100vw),60px);
         width: 1000px;
         height: 400px;
+        display: block;
     }
 }
