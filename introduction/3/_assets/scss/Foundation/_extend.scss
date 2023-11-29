@@ -2,25 +2,16 @@
 @use './mixin';
 
 //extend
-%p-price__table__category--subPage {
-    padding-top: 2rem;
-    font-size: 1.5rem;
-}
 
-%c-item__link--nav{    
-    color: #fff;
-    width:100%;
-    //margin-right:calc(16/va.$sp-design-width*100vw);
-    font-size: clamp(16px,calc(16/va.$sp-design-width*100vw),20px);
+%p-heading2{    
+    font-family: 'Meiryo';
+    font-size:calc(18/va.$sp-design-width*100vw);
+    font-weight: bold;
+    color:#333333;
     text-align: center;
-    height: 70px;
-    //aタグがインライン要素なので高さを揃えるためにflexに
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: calc(22/18);
     @include mixin.mq(pc){
-        width:calc(150/va.$pc-design-width*100vw);
-        font-size: clamp(16px,calc(16/va.$pc-design-width*100vw),20px);
+        font-size:calc(18/va.$pc-design-width*100vw);
     }
     /*
     > :hover{

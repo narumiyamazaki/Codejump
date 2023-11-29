@@ -4,15 +4,16 @@
 .c-logo{
     //width: max(calc(355/va.$sp-design-width*100vw),355px);
     //height: max(calc(40/va.$sp-design-width*100vw),40px);
-    object-fit: contain;
-    margin-left:max(calc(10px/va.$pc-design-width*100vw),10px);
-    margin-bottom:max(calc(15/va.$sp-design-width*100vw),15px);
+    object-fit: cover;
+    width:max(calc(180/va.$sp-design-width*100vw),);
+    margin-left:max(calc(10/va.$pc-design-width*100vw));
+    margin-bottom:max(calc(15/va.$sp-design-width*100vw));
     //argin-left:max(calc(10/va.$sp-design-width*100vw),10px);
     @include mixin.mq(pc){
         //width: max(calc(1000/va.$pc-design-width*100vw),1000px);
         //height: max(calc(40/va.$pc-design-width*100vw),40px);
         //margin:max(calc(10/va.$pc-design-width*100vw),10px) 0;
-        margin-left:max(calc(140px/va.$pc-design-width*100vw),140px);
-        margin-bottom:max(calc(15/va.$pc-design-width*100vw),15px);
+        margin-left:max(calc(140/va.$pc-design-width*100vw));
+        margin-bottom:max(calc(15/va.$pc-design-width*100vw));
     }
 }

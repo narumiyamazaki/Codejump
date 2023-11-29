@@ -3,9 +3,9 @@
 
 .p-heading1{
     margin-top:max(calc(60/va.$sp-design-width*100vw),60px);
-    margin-left:max(calc(10px/va.$sp-design-width*100vw),10px);
+    margin-left:max(calc(10/va.$sp-design-width*100vw));
     @include mixin.mq(pc){
         margin-top:max(calc(60/va.$pc-design-width*100vw),60px);
-        margin-left:max(calc(140px/va.$sp-design-width*100vw),140px);
+        margin-left:max(calc(140/va.$sp-design-width*100vw));
     }
 }
