@@ -6,3 +6,9 @@
 //index
 @use './p-section__index';
 @use './p-section__index__heading2';
+@use './p-section__index-list';
+@use './p-section__index-list__item';
+
+//photo
+@use './p-photo';
+@use './p-photo__wrapper';

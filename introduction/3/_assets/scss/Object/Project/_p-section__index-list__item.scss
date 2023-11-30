@@ -1,0 +1,10 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__index-list__item{
+    width:calc(237/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        width:calc(404/va.$pc-design-width*100vw);
+        margin:0 auto;
+    }
+}

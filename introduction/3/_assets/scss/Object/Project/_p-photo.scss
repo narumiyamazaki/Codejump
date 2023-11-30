@@ -1,0 +1,11 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-photo{
+    width:calc(335/va.$sp-design-width*100vw);
+    height:calc(223/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        width:calc(392/va.$pc-design-width*100vw);
+        height:calc(261/va.$pc-design-width*100vw);
+    }
+}

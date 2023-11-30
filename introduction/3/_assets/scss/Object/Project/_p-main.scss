@@ -5,6 +5,6 @@
     width:max(calc(335/va.$sp-design-width*100vw));
     margin:0 auto;
     @include mixin.mq(pc){
-        width:max(calc(800/va.$sp-design-width*100vw));
+        width:max(calc(800/va.$pc-design-width*100vw));
     }
 }

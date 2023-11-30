@@ -1,0 +1,11 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__index-list{
+    border: 1px solid #333333;
+    width:calc(295/va.$sp-design-width*100vw);
+    padding:calc(33/va.$sp-design-width*100vw) 0 calc(30/va.$sp-design-width*100vw) calc(15/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        padding:calc(33/va.$pc-design-width*100vw) 0;
+    }
+}
