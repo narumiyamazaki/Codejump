@@ -3,8 +3,11 @@
 
 .p-section__index-list__item{
     width:calc(237/va.$sp-design-width*100vw);
+    margin-left:calc(15/va.$sp-design-width*100vw);
+    margin-bottom:calc(62/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
         width:calc(404/va.$pc-design-width*100vw);
         margin:0 auto;
+        margin-bottom:calc(41/va.$pc-design-width*100vw);
     }
 }
