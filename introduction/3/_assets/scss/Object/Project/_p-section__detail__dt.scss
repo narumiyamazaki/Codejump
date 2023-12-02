@@ -1,0 +1,10 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__detail__dt{
+    //font: normal normal bold calc(14/va.$sp-design-width*100vw) calc(18/14) Meiryo;
+    //font: normal normal bold 14px 1.2 Meiryo;
+    //font: normal normal bold 14px/18px Meiryo;
+    //font: bold 1vw Meiryo;
+    font: normal normal bold calc(14/va.$sp-design-width*100vw)/calc(18/14) Meiryo;
+}

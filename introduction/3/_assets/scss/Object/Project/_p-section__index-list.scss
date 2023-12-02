@@ -6,6 +6,7 @@
     width:calc(295/va.$sp-design-width*100vw);
     padding:calc(33/va.$sp-design-width*100vw) 0 calc(30/va.$sp-design-width*100vw) calc(15/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
+        width:calc(680/va.$pc-design-width*100vw);
         padding:calc(33/va.$pc-design-width*100vw) 0;
     }
 }

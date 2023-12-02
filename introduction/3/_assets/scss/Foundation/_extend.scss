@@ -10,6 +10,7 @@
     color:#333333;
     text-align: center;
     line-height: calc(22/18);
+    text-transform: uppercase;
     @include mixin.mq(pc){
         font-size:calc(18/va.$pc-design-width*100vw);
     }
