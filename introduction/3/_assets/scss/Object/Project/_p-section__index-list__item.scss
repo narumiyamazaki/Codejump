@@ -4,10 +4,25 @@
 .p-section__index-list__item{
     width:calc(237/va.$sp-design-width*100vw);
     margin-left:calc(15/va.$sp-design-width*100vw);
-    margin-bottom:calc(23/va.$sp-design-width*100vw);
+    font-family: va.$font-Japanese;
+    font-size:max(calc(14/va.$sp-design-width*100vw),14px);
+    color: va.$text-color;
+    line-height: calc( 17/14 );
+    //letter-spacing: calc(/1000 * 1em);
+    //font-weight: 500;
+    @include mixin.mq(pc){
+    font-size:max(calc(14/va.$pc-design-width*100vw),14px);
+    //line-height: calc( / );
+    //letter-spacing: calc(/1000 * 1em);
+    }
+    &:not(:last-child){
+        margin-bottom:calc(23/va.$sp-design-width*100vw);
+    }
     @include mixin.mq(pc){
         width:calc(404/va.$pc-design-width*100vw);
         margin-left:calc(130/va.$pc-design-width*100vw);
-        margin-bottom:calc(41/va.$pc-design-width*100vw);
+        &:not(:last-child){
+            margin-bottom:calc(41/va.$pc-design-width*100vw);
+        }
     }
 }

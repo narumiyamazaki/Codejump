@@ -1,17 +1,16 @@
 @use '../../Foundation/vars' as va;
 @use '../../Foundation/mixin';
 
-.p-section__detail__dt{
+.p-section__detail__dd{
     font-family: va.$font-Japanese;
     font-size:max(calc(14/va.$sp-design-width*100vw));
     color: va.$text-color;
-    line-height: calc( 18/14 );
+    line-height: calc( 17/14 );
     //letter-spacing: calc(/1000 * 1em);
-    font-weight: bold;
-    //margin-bottom:calc(7/va.$sp-design-width*100vw);
+    //font-weight: 500;
     @include mixin.mq(pc){
     font-size:max(calc(14/va.$pc-design-width*100vw));
-    //margin-bottom:calc(7/va.$pc-design-width*100vw);
+    width:max(170/va.$pc-design-width*100vw);
     //line-height: calc( / );
     //letter-spacing: calc(/1000 * 1em);
     }

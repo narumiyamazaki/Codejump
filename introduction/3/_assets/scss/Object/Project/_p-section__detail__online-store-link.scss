@@ -1,0 +1,17 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__detail__online-store-link{
+    font-family: va.$font-Japanese;
+    font-size:max(calc(14/va.$sp-design-width*100vw),14px);
+    color: va.$text-color;
+    line-height: calc( 17/14 );
+    text-underline-offset: 3px;
+    //letter-spacing: calc(/1000 * 1em);
+    //font-weight: 500;
+    @include mixin.mq(pc){
+    font-size:max(calc(14/va.$pc-design-width*100vw),14px);
+    //line-height: calc( / );
+    //letter-spacing: calc(/1000 * 1em);
+    }
+}

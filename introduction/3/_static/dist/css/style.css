@@ -18,10 +18,8 @@
  */
 ::before,
 ::after {
-  text-decoration: inherit;
-  /* 1 */
-  vertical-align: inherit;
-  /* 2 */
+  text-decoration: inherit; /* 1 */
+  vertical-align: inherit; /* 2 */
 }
 
 /**
@@ -34,21 +32,14 @@
  * 6. Breaks words to prevent overflow in all browsers (opinionated).
  */
 html {
-  cursor: default;
-  /* 1 */
-  line-height: 1.5;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  tab-size: 4;
-  /* 3 */
+  cursor: default; /* 1 */
+  line-height: 1.5; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
   -webkit-tap-highlight-color: transparent;
-  -ms-text-size-adjust: 100%;
-  /* 5 */
-  -webkit-text-size-adjust: 100%;
-  /* 5 */
-  word-break: break-word;
-  /* 6 */
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
 }
 
 /* Sections
@@ -98,10 +89,8 @@ ul ul {
  * 2. Show the overflow in Edge 18- and IE.
  */
 hr {
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -125,10 +114,8 @@ nav ul {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -163,10 +150,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -259,10 +244,8 @@ select {
  * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
  */
 button {
-  overflow: visible;
-  /* 1 */
-  text-transform: none;
-  /* 2 */
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
 }
 
 /**
@@ -280,10 +263,8 @@ button,
  * 2. Correct the padding in Firefox.
  */
 fieldset {
-  border: 1px solid #a0a0a0;
-  /* 1 */
-  padding: 0.35em 0.75em 0.625em;
-  /* 2 */
+  border: 1px solid #a0a0a0; /* 1 */
+  padding: 0.35em 0.75em 0.625em; /* 2 */
 }
 
 /**
@@ -298,14 +279,10 @@ input {
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  */
 legend {
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  white-space: normal;
-  /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -313,10 +290,8 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
  */
 progress {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
 }
 
 /**
@@ -332,12 +307,9 @@ select {
  * 3. Change the resize direction in all browsers (opinionated).
  */
 textarea {
-  margin: 0;
-  /* 1 */
-  overflow: auto;
-  /* 2 */
-  resize: vertical;
-  /* 3 */
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+  resize: vertical; /* 3 */
 }
 
 /**
@@ -353,10 +325,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -387,10 +357,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /**
@@ -488,10 +456,8 @@ select,
 summary,
 textarea,
 [tabindex] {
-  -ms-touch-action: manipulation;
-  /* 1 */
-  touch-action: manipulation;
-  /* 2 */
+  -ms-touch-action: manipulation; /* 1 */
+  touch-action: manipulation; /* 2 */
 }
 
 /**
@@ -551,11 +517,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-dl, dd {
-  margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
+* {
   margin: 0;
 }
 
@@ -569,14 +531,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: max(2.6666666667vw, 10px);
   font-family: "Meiryo";
   line-height: 1.2;
-  color: #383E45;
+  color: #333333;
   text-align: center;
-  margin-bottom: max(3.2vw, 12px);
+  margin-bottom: max(4.5333333333vw, 12px);
 }
 @media screen and (min-width: 1024px) {
   .l-footer {
     font-size: max(0.78125vw, 10px);
-    margin-bottom: max(0.9375vw, 12px);
+    margin-bottom: max(1.328125vw, 12px);
   }
 }
 
@@ -631,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 1024px) {
   .p-section__index {
-    padding: max(5.078125vw, 65px) max(4.6875vw, 60px) max(4.6875vw, 60px);
+    padding: 5.078125vw 4.6875vw 4.6875vw;
   }
 }
 
@@ -679,12 +641,25 @@ h1, h2, h3, h4, h5, h6 {
 .p-section__index-list__item {
   width: 63.2vw;
   margin-left: 4vw;
+  font-family: "Meiryo";
+  font-size: max(3.7333333333vw, 14px);
+  color: #333333;
+  line-height: 1.2142857143;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__index-list__item {
+    font-size: max(1.09375vw, 14px);
+  }
+}
+.p-section__index-list__item:not(:last-child) {
   margin-bottom: 6.1333333333vw;
 }
 @media screen and (min-width: 1024px) {
   .p-section__index-list__item {
     width: 31.5625vw;
     margin-left: 10.15625vw;
+  }
+  .p-section__index-list__item:not(:last-child) {
     margin-bottom: 3.203125vw;
   }
 }
@@ -734,8 +709,99 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.p-section__detail__dl__wrapper:not(:last-child) {
+  margin-bottom: 4.5333333333vw;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__dl__wrapper:not(:last-child) {
+    margin-bottom: 1.328125vw;
+  }
+}
+
 .p-section__detail__dt {
-  font: normal normal bold 3.7333333333vw/1.2857142857 Meiryo;
+  font-family: "Meiryo";
+  font-size: 3.7333333333vw;
+  color: #333333;
+  line-height: 1.2857142857;
+  font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__dt {
+    font-size: 1.09375vw;
+  }
+}
+
+.p-section__detail__dd {
+  font-family: "Meiryo";
+  font-size: 3.7333333333vw;
+  color: #333333;
+  line-height: 1.2142857143;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__dd {
+    font-size: 1.09375vw;
+    width: 13.28125vw;
+  }
+}
+
+.p-section__detail__txt__container {
+  width: 78.6666666667vw;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__txt__container {
+    width: 100%;
+    display: flex;
+  }
+}
+
+.p-section__detail__txt__wrapper {
+  padding-bottom: 11.4666666667vw;
+  border-bottom: 1px solid #333333;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__txt__wrapper {
+    padding: 0 5.625vw 0 4.6875vw;
+    border-bottom: none;
+    border-right: 1px solid #333333;
+  }
+}
+
+.p-section__detail__description__wrapper {
+  padding-top: 11.4666666667vw;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__description__wrapper {
+    padding-top: 0;
+    padding-left: 3.125vw;
+  }
+}
+
+.p-section__detail__txt {
+  font-family: "Meiryo";
+  font-size: max(3.7333333333vw, 14px);
+  color: #333333;
+  line-height: 1.2142857143;
+  margin-bottom: 6.4vw;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__txt {
+    font-size: max(1.09375vw, 14px);
+    margin-bottom: 1.875vw;
+    margin-right: 5.9375vw;
+  }
+}
+
+.p-section__detail__online-store-link {
+  font-family: "Meiryo";
+  font-size: max(3.7333333333vw, 14px);
+  color: #333333;
+  line-height: 1.2142857143;
+  text-underline-offset: 3px;
+}
+@media screen and (min-width: 1024px) {
+  .p-section__detail__online-store-link {
+    font-size: max(1.09375vw, 14px);
+  }
 }
 
 .c-logo {
@@ -746,6 +812,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 1024px) {
   .c-logo {
+    width: 14.0625vw;
     margin-bottom: 1.171875vw;
   }
 }

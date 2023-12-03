@@ -5,11 +5,11 @@
     font-size:max(calc(10/va.$sp-design-width*100vw),10px);
     font-family: "Meiryo";
     line-height: calc(12/10);
-    color:#383E45;
+    color:#333333;
     text-align: center;
-    margin-bottom:max(calc(12/va.$sp-design-width*100vw),12px);
+    margin-bottom:max(calc(17/va.$sp-design-width*100vw),12px);
     @include mixin.mq(pc){
         font-size:max(calc(10/va.$pc-design-width*100vw),10px);
-        margin-bottom:max(calc(12/va.$pc-design-width*100vw),12px);
+        margin-bottom:max(calc(17/va.$pc-design-width*100vw),12px);
     }
 }
