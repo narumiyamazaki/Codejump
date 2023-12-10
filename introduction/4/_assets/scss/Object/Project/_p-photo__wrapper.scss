@@ -1,0 +1,11 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-photo__wrapper{
+    margin-bottom:calc(60/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom:calc(60/va.$pc-design-width*100vw);
+    }
+}

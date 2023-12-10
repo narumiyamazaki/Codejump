@@ -18,10 +18,8 @@
  */
 ::before,
 ::after {
-  text-decoration: inherit;
-  /* 1 */
-  vertical-align: inherit;
-  /* 2 */
+  text-decoration: inherit; /* 1 */
+  vertical-align: inherit; /* 2 */
 }
 
 /**
@@ -34,21 +32,14 @@
  * 6. Breaks words to prevent overflow in all browsers (opinionated).
  */
 html {
-  cursor: default;
-  /* 1 */
-  line-height: 1.5;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  tab-size: 4;
-  /* 3 */
+  cursor: default; /* 1 */
+  line-height: 1.5; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
   -webkit-tap-highlight-color: transparent;
-  -ms-text-size-adjust: 100%;
-  /* 5 */
-  -webkit-text-size-adjust: 100%;
-  /* 5 */
-  word-break: break-word;
-  /* 6 */
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
 }
 
 /* Sections
@@ -98,10 +89,8 @@ ul ul {
  * 2. Show the overflow in Edge 18- and IE.
  */
 hr {
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -125,10 +114,8 @@ nav ul {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -163,10 +150,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -259,10 +244,8 @@ select {
  * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
  */
 button {
-  overflow: visible;
-  /* 1 */
-  text-transform: none;
-  /* 2 */
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
 }
 
 /**
@@ -280,10 +263,8 @@ button,
  * 2. Correct the padding in Firefox.
  */
 fieldset {
-  border: 1px solid #a0a0a0;
-  /* 1 */
-  padding: 0.35em 0.75em 0.625em;
-  /* 2 */
+  border: 1px solid #a0a0a0; /* 1 */
+  padding: 0.35em 0.75em 0.625em; /* 2 */
 }
 
 /**
@@ -298,14 +279,10 @@ input {
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  */
 legend {
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  white-space: normal;
-  /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -313,10 +290,8 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
  */
 progress {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
 }
 
 /**
@@ -332,12 +307,9 @@ select {
  * 3. Change the resize direction in all browsers (opinionated).
  */
 textarea {
-  margin: 0;
-  /* 1 */
-  overflow: auto;
-  /* 2 */
-  resize: vertical;
-  /* 3 */
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+  resize: vertical; /* 3 */
 }
 
 /**
@@ -353,10 +325,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -387,10 +357,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /**
@@ -488,10 +456,8 @@ select,
 summary,
 textarea,
 [tabindex] {
-  -ms-touch-action: manipulation;
-  /* 1 */
-  touch-action: manipulation;
-  /* 2 */
+  -ms-touch-action: manipulation; /* 1 */
+  touch-action: manipulation; /* 2 */
 }
 
 /**
@@ -555,24 +521,17 @@ body {
   margin: 0;
 }
 
-@media screen and (min-width: 834px) {
-  .l-header {
-    padding-bottom: max(1.25vw, 15px);
-  }
-}
-
 .l-footer {
-  font-size: max(2.6666666667vw, 10px);
-  font-family: "Meiryo";
-  line-height: 1.2;
-  color: #333333;
+  font-family: "Helvetica", "Neue", "Hiragino Sans", "sans-serif";
+  font-size: 3.2vw;
+  color: #2B2A27;
+  line-height: 1.75;
+  margin-bottom: 5.3333333333vw;
   text-align: center;
-  margin-bottom: max(4.5333333333vw, 12px);
 }
 @media screen and (min-width: 834px) {
   .l-footer {
-    font-size: max(0.8333333333vw, 10px);
-    margin-bottom: max(1.4166666667vw, 12px);
+    font-size: 1vw;
   }
 }
 
@@ -585,6 +544,126 @@ body {
 @media screen and (min-width: 834px) {
   .p-mv {
     margin-bottom: 6.6666666667vw;
+  }
+}
+
+.p-main {
+  margin-bottom: 5.3333333333vw;
+}
+@media screen and (min-width: 834px) {
+  .p-main {
+    margin-bottom: 1.6666666667vw;
+  }
+}
+
+.p-heading1 {
+  font-family: "Helvetica", "Neue", "Hiragino Sans", "sans-serif";
+  font-size: 8.5333333333vw;
+  color: #2B2A27;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 6.1333333333vw;
+  text-align: center;
+}
+@media screen and (min-width: 834px) {
+  .p-heading1 {
+    font-size: 2.6666666667vw;
+    margin-bottom: 1.9166666667vw;
+  }
+}
+
+.p-main__text {
+  font-family: "Helvetica", "Neue", "Hiragino Sans", "sans-serif";
+  font-size: 4.2666666667vw;
+  color: #2B2A27;
+  line-height: 1.5;
+  margin-bottom: 22.6666666667vw;
+  text-align: center;
+}
+@media screen and (min-width: 834px) {
+  .p-main__text {
+    font-size: max(1.3333333333vw, 16px);
+    margin-bottom: 7.0833333333vw;
+  }
+}
+
+.p-photo__wrapper {
+  margin-bottom: 16vw;
+}
+@media screen and (min-width: 834px) {
+  .p-photo__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 5vw;
+  }
+}
+
+.p-photo {
+  width: 100vw;
+  height: 500px;
+}
+@media screen and (min-width: 834px) {
+  .p-photo {
+    width: 33.3333333333vw;
+  }
+}
+
+.p-recipe-list__link {
+  display: grid;
+  place-items: center;
+  width: 61.8666666667vw;
+  height: 15.2vw;
+  border: 1px solid #2B2A27;
+  margin: 0 auto 21.3333333333vw;
+}
+@media screen and (min-width: 834px) {
+  .p-recipe-list__link {
+    width: 19.3333333333vw;
+    margin-bottom: 6.6666666667vw;
+    height: 4.75vw;
+  }
+}
+
+.p-recipe-list__link__text {
+  font-family: "Helvetica", "Neue", "Hiragino Sans", "sans-serif";
+  font-size: 3.7333333333vw;
+  color: #2B2A27;
+  line-height: 3.4285714286;
+}
+@media screen and (min-width: 834px) {
+  .p-recipe-list__link__text {
+    font-size: 1.1666666667vw;
+  }
+}
+
+.p-sns-list {
+  display: grid;
+  gap: 5.6vw;
+  grid-template-columns: repeat(3, max-content);
+  margin: 0 auto 5.6vw;
+}
+@media screen and (min-width: 834px) {
+  .p-sns-list {
+    gap: 1.75vw;
+    margin-bottom: 1.75vw;
+  }
+}
+
+.p-sns-list__wrapper {
+  display: grid;
+  place-content: center;
+}
+
+.c-sns-list__item__link {
+  text-decoration: underline 1px #2B2A27;
+  font-family: "Helvetica", "Neue", "Hiragino Sans", "sans-serif";
+  font-size: 3.2vw;
+  color: #2B2A27;
+  line-height: 1.75;
+}
+@media screen and (min-width: 834px) {
+  .c-sns-list__item__link {
+    font-size: 1vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
