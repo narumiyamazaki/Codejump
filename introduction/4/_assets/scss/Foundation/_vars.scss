@@ -1,0 +1,21 @@
+//変数の定義
+
+//サイトの基本設定
+$pc-design-width:1200;
+$tb-design-width:1023;
+$sp-design-width:375;
+
+//フォント
+$font-base:'Helvetica', 'Neue','Hiragino Sans', 'sans-serif';
+$headerHeight:70px;
+$font-Japanese:'Meiryo';
+$text-color:#2B2A27;
+//メインカラー
+
+// メディアクエリのブレイクポイント用変数
+$breakpoints: (
+    'sp': 'screen and (max-width: 414px)',
+    'tb': 'screen and (max-width: 768px)',
+    'pc': 'screen and (min-width: 750px)',
+  ) !default;
+
