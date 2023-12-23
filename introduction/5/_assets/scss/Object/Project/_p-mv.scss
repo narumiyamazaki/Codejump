@@ -3,10 +3,12 @@
 
 .p-mv{
     width: 100vw;
-    height: 100vh;
+    height:auto;
     object-fit: cover;
-    margin-bottom:calc(80/va.$sp-design-width*100vw);
+    margin-bottom:calc(45/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
+        width: 50vw;
+        height:700px;
         margin-bottom:calc(80/va.$pc-design-width*100vw);
     }
 }
