@@ -1,13 +1,13 @@
-@use '../Foundation/vars' as va;
-@use '../Foundation/mixin';
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
 
-.l-footer{
+.c-sns-list__item__link{
+    //display: block;
+    text-decoration: underline 1px #2B2A27;
     font-family: va.$font-base;
     font-size:max(calc(12/va.$sp-design-width*100vw));
     color: va.$text-color;
     line-height: calc( 21/12 );
-    margin-bottom:calc((20/va.$sp-design-width*100vw));
-    text-align: center;
     //letter-spacing: calc(/1000 * 1em);
     //font-weight: 500;
     @include mixin.mq(pc){

@@ -1,0 +1,16 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-recipe-list__link{
+    display: grid;
+    place-items: center;
+    width:calc(232/va.$sp-design-width*100vw);
+    height:max(calc(57/va.$sp-design-width*100vw));
+    border:1px solid #2B2A27;
+    margin:0 auto calc(80/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        width:calc(232/va.$pc-design-width*100vw);
+        margin-bottom:calc(80/va.$pc-design-width*100vw);
+        height:max(calc(57/va.$pc-design-width*100vw));
+    }
+}
