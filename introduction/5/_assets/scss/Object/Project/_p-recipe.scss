@@ -4,6 +4,6 @@
 .p-recipe{
     margin-bottom:calc(48/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
-        margin-bottom:calc(48/va.$pc-design-width*100vw);
+        margin-bottom:48px;
     }
 }

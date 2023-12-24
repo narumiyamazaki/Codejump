@@ -1,0 +1,9 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-recipe__ingredient{
+    margin-bottom:calc(43/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        margin-bottom:43px;
+    }
+}

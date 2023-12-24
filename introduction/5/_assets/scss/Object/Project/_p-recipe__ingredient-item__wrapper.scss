@@ -1,0 +1,16 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-recipe__ingredient-item__wrapper{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:11px;
+    border-bottom:1px dotted #CCCCCC;
+    &:not(:first-child){
+        padding-top:9px;
+    }
+    @include mixin.mq(pc){
+        border-bottom:1px solid #CCCCCC;
+    }
+}

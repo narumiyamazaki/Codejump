@@ -6,3 +6,11 @@
 //recipe
 @use './p-recipe';
 @use './p-heading1';
+@use './p-recipe_txt';
+
+//ingredient
+@use './p-recipe__ingredient';
+@use './p-recipe__ingredient__heading2';
+@use './p-recipe__ingredient-item__wrapper';
+@use './p-recipe__ingredient__txt';
+@use './p-recipe__ingredient__pieces';

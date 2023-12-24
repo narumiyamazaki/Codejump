@@ -1,0 +1,21 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-recipe__ingredient__heading2{
+    //ont-family: va.//$font-Japanese;
+    font-size:max(calc(20/va.$sp-design-width*100vw));
+    color: va.$text-color;
+    line-height: calc( 24/20 );
+    //letter-spacing: calc(/1000 * 1em);
+    font-weight: bold;
+    padding-bottom:calc(9/va.$sp-design-width*100vw);
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom:calc(24/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        font-size:max(calc(20/va.$pc-design-width*100vw));
+        margin-bottom:11px;
+        padding-bottom:11px;
+        //line-height: calc( / );
+        //letter-spacing: calc(/1000 * 1em);
+    }
+}
