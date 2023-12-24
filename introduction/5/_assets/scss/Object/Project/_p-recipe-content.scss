@@ -3,4 +3,7 @@
 
 .p-recipe-content{
     padding:0 5%;
+    @include mixin.mq(pc){
+        width:50vw;
+    }
 }

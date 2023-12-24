@@ -1,0 +1,16 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-recipe__way-of-making__item{
+    padding-bottom:11px;
+    border-bottom:1px dotted #CCCCCC;
+    font-size:16px;
+    line-height: calc(24/16);
+    margin-left:5%;
+    &:not(:first-child){
+        padding-top:9px;
+    }
+    @include mixin.mq(pc){
+        border-bottom:1px solid #CCCCCC;
+    }
+}

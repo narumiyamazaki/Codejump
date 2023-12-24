@@ -3,14 +3,13 @@
 
 .p-heading1{
     //font-family: va.//$font-Japanese;
-    font-size:max(calc(28/va.$sp-design-width*100vw));
+    font-size:28px;
     color: va.$text-color;
     line-height: calc( 42/28 );
     //letter-spacing: calc(/1000 * 1em);
     font-weight: bold;
     margin-bottom:calc(32/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
-        font-size:max(calc(28/va.$pc-design-width*100vw));
         line-height: calc( 48/28 );
         padding-top:45px;
         margin-bottom:32px;

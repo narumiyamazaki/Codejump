@@ -1,0 +1,9 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-recipe__way-of-making{
+    margin-bottom:calc(60/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+       margin-bottom:0; 
+    }
+}
