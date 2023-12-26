@@ -18,8 +18,10 @@
  */
 ::before,
 ::after {
-  text-decoration: inherit; /* 1 */
-  vertical-align: inherit; /* 2 */
+  text-decoration: inherit;
+  /* 1 */
+  vertical-align: inherit;
+  /* 2 */
 }
 
 /**
@@ -32,14 +34,21 @@
  * 6. Breaks words to prevent overflow in all browsers (opinionated).
  */
 html {
-  cursor: default; /* 1 */
-  line-height: 1.5; /* 2 */
-  -moz-tab-size: 4; /* 3 */
-  tab-size: 4; /* 3 */
+  cursor: default;
+  /* 1 */
+  line-height: 1.5;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  tab-size: 4;
+  /* 3 */
   -webkit-tap-highlight-color: transparent;
-  -ms-text-size-adjust: 100%; /* 5 */
-  -webkit-text-size-adjust: 100%; /* 5 */
-  word-break: break-word; /* 6 */
+  -ms-text-size-adjust: 100%;
+  /* 5 */
+  -webkit-text-size-adjust: 100%;
+  /* 5 */
+  word-break: break-word;
+  /* 6 */
 }
 
 /* Sections
@@ -89,8 +98,10 @@ ul ul {
  * 2. Show the overflow in Edge 18- and IE.
  */
 hr {
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -114,8 +125,10 @@ nav ul {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -150,8 +163,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -244,8 +259,10 @@ select {
  * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
  */
 button {
-  overflow: visible; /* 1 */
-  text-transform: none; /* 2 */
+  overflow: visible;
+  /* 1 */
+  text-transform: none;
+  /* 2 */
 }
 
 /**
@@ -263,8 +280,10 @@ button,
  * 2. Correct the padding in Firefox.
  */
 fieldset {
-  border: 1px solid #a0a0a0; /* 1 */
-  padding: 0.35em 0.75em 0.625em; /* 2 */
+  border: 1px solid #a0a0a0;
+  /* 1 */
+  padding: 0.35em 0.75em 0.625em;
+  /* 2 */
 }
 
 /**
@@ -279,10 +298,14 @@ input {
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  */
 legend {
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  white-space: normal; /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -290,8 +313,10 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
  */
 progress {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
 }
 
 /**
@@ -307,9 +332,12 @@ select {
  * 3. Change the resize direction in all browsers (opinionated).
  */
 textarea {
-  margin: 0; /* 1 */
-  overflow: auto; /* 2 */
-  resize: vertical; /* 3 */
+  margin: 0;
+  /* 1 */
+  overflow: auto;
+  /* 2 */
+  resize: vertical;
+  /* 3 */
 }
 
 /**
@@ -325,8 +353,10 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -357,8 +387,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /**
@@ -456,8 +488,10 @@ select,
 summary,
 textarea,
 [tabindex] {
-  -ms-touch-action: manipulation; /* 1 */
-  touch-action: manipulation; /* 2 */
+  -ms-touch-action: manipulation;
+  /* 1 */
+  touch-action: manipulation;
+  /* 2 */
 }
 
 /**
@@ -512,9 +546,8 @@ html {
 
 body {
   /*font-sizeを指定していない場合16pxとなる*/
-  font-size: 1.6;
   line-height: 1.6;
-  font-family: "Helvetica", "Neue", Arial, "Hiragino Sans", "Meiryo", sans-serif;
+  font-family: "Crimson Text", serif;
 }
 
 * {
@@ -522,9 +555,17 @@ body {
   padding: 0;
 }
 
+.l-header {
+  display: flex;
+  justify-content: space-between;
+  width: 89.3333333333vw;
+  margin: 0 auto 14.1333333333vw;
+}
 @media screen and (min-width: 834px) {
   .l-header {
-    padding-bottom: max(1.25vw, 15px);
+    width: 25.5714285714vw;
+    margin-bottom: 4.6428571429vw;
+    margin-left: 5vw;
   }
 }
 
@@ -538,8 +579,8 @@ body {
 }
 @media screen and (min-width: 834px) {
   .l-footer {
-    font-size: max(0.8333333333vw, 10px);
-    margin-bottom: max(1.4166666667vw, 12px);
+    font-size: max(0.7142857143vw, 10px);
+    margin-bottom: max(1.2142857143vw, 12px);
   }
 }
 
@@ -547,161 +588,49 @@ body {
   width: 100vw;
   height: auto;
   object-fit: cover;
-  margin-bottom: 12vw;
+  display: block;
+  margin-bottom: 6.4vw;
 }
 @media screen and (min-width: 834px) {
   .p-mv {
-    width: 50vw;
-    height: 700px;
-    margin-bottom: 0;
+    width: 90vw;
+    margin: 4.2857142857vw auto 2.5714285714vw;
   }
 }
 
-.p-main {
-  margin-bottom: 5.3333333333vw;
+.p-logo {
+  background-image: url("../img/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: max(29.3333333333vw, 110px);
+  height: max(3.4666666667vw, 13px);
 }
 @media screen and (min-width: 834px) {
-  .p-main {
-    margin-bottom: 1.6666666667vw;
+  .p-logo {
+    width: max(7.8571428571vw, 110px);
+    height: max(0.9285714286vw, 13px);
   }
 }
 
-@media screen and (min-width: 834px) {
-  .p-main-content__wrapper {
-    display: flex;
-  }
-}
-
-.p-recipe-content {
-  padding: 0 5%;
-}
-@media screen and (min-width: 834px) {
-  .p-recipe-content {
-    width: 50vw;
-  }
-}
-
-.p-recipe {
-  margin-bottom: 12.8vw;
-}
-@media screen and (min-width: 834px) {
-  .p-recipe {
-    margin-bottom: 48px;
-  }
-}
-
-.p-heading1 {
-  font-size: 28px;
-  color: #2B2A27;
-  line-height: 1.5;
-  font-weight: bold;
-  margin-bottom: 8.5333333333vw;
-}
-@media screen and (min-width: 834px) {
-  .p-heading1 {
-    line-height: 1.7142857143;
-    padding-top: 45px;
-    margin-bottom: 32px;
-  }
-}
-
-.p-recipe_txt {
-  font-size: 16px;
-  color: #2B2A27;
-  line-height: 1.5;
-}
-
-.p-recipe__ingredient {
-  margin-bottom: 11.4666666667vw;
-}
-@media screen and (min-width: 834px) {
-  .p-recipe__ingredient {
-    margin-bottom: 43px;
-  }
-}
-
-.p-recipe__ingredient__heading2 {
-  font-size: 20px;
-  color: #2B2A27;
-  line-height: 1.2;
-  font-weight: bold;
-  padding-bottom: 2.4vw;
-  border-bottom: 1px solid #CCCCCC;
-  margin-bottom: 6.4vw;
-}
-@media screen and (min-width: 834px) {
-  .p-recipe__ingredient__heading2 {
-    margin-bottom: 11px;
-    padding-bottom: 11px;
-  }
-}
-
-.p-recipe__ingredient-item__wrapper {
-  width: 100%;
+.p-nav__items {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 11px;
-  border-bottom: 1px dotted #CCCCCC;
-}
-.p-recipe__ingredient-item__wrapper:not(:first-child) {
-  padding-top: 9px;
+  width: 52.8vw;
 }
 @media screen and (min-width: 834px) {
-  .p-recipe__ingredient-item__wrapper {
-    border-bottom: 1px solid #CCCCCC;
+  .p-nav__items {
+    width: 14.1428571429vw;
   }
 }
 
-.p-recipe__ingredient__txt {
-  font-size: 16px;
-  color: #2B2A27;
-  line-height: 1.5;
-}
-
-.p-recipe__ingredient__pieces {
-  font-size: 16px;
-  color: #2B2A27;
-  line-height: 1.5;
-}
-
-.p-recipe__way-of-making {
-  margin-bottom: 16vw;
+.p-nav__link {
+  font-size: 3.7333333333vw;
+  color: #2D2D2D;
+  line-height: 3;
 }
 @media screen and (min-width: 834px) {
-  .p-recipe__way-of-making {
-    margin-bottom: 0;
-  }
-}
-
-.p-recipe__way-of-making__heading2 {
-  font-size: 20px;
-  color: #2B2A27;
-  line-height: 1.2;
-  font-weight: bold;
-  padding-bottom: 2.4vw;
-  border-bottom: 1px solid #CCCCCC;
-  margin-bottom: 6.4vw;
-}
-@media screen and (min-width: 834px) {
-  .p-recipe__way-of-making__heading2 {
-    margin-bottom: 11px;
-    padding-bottom: 11px;
-  }
-}
-
-.p-recipe__way-of-making__item {
-  padding-bottom: 11px;
-  border-bottom: 1px dotted #CCCCCC;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-left: 5%;
-}
-.p-recipe__way-of-making__item:not(:first-child) {
-  padding-top: 9px;
-}
-@media screen and (min-width: 834px) {
-  .p-recipe__way-of-making__item {
-    border-bottom: 1px solid #CCCCCC;
+  .p-nav__link {
+    font-size: 1vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

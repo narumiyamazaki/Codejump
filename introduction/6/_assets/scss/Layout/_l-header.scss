@@ -2,8 +2,13 @@
 @use '../Foundation/mixin';
 
 .l-header{
+    display: flex;
+    justify-content: space-between;
+    width:max(335/va.$sp-design-width*100vw);
+    margin: 0 auto calc(53/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
-        //padding-left:max(calc(140/va.$pc-design-width*100vw));
-        padding-bottom:max(calc(15/va.$pc-design-width*100vw),15px);
+        width:max(358/va.$pc-design-width*100vw);
+        margin-bottom:calc(65/va.$pc-design-width*100vw);
+        margin-left:5vw;
     }
 }
