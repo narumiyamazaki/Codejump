@@ -1,9 +1,9 @@
 @use '../../Foundation/vars' as va;
 @use '../../Foundation/mixin';
 
-.p-concept{
-    margin-bottom:calc(65/va.$sp-design-width*100vw);
+.p-concept__txt__wrapper{
     @include mixin.mq(pc){
-        display: flex;   
+        display: grid;
+        place-items: center;
     }
 }
