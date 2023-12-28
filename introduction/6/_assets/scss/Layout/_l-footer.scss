@@ -2,14 +2,13 @@
 @use '../Foundation/mixin';
 
 .l-footer{
-    font-size:max(calc(10/va.$sp-design-width*100vw),10px);
-    font-family: "Meiryo";
-    line-height: calc(12/10);
-    color:#333333;
-    text-align: center;
-    margin-bottom:max(calc(17/va.$sp-design-width*100vw),12px);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding:0 calc(18/va.$sp-design-width*100vw);
+    margin-bottom:calc(23/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
-        font-size:max(calc(10/va.$pc-design-width*100vw),10px);
-        margin-bottom:max(calc(17/va.$pc-design-width*100vw),12px);
+        padding:0 calc(18/va.$pc-design-width*100vw);
+        margin:0 auto calc(23/va.$pc-design-width*100vw);
     }
 }

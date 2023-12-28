@@ -6,6 +6,7 @@
 }
 @media screen and (min-width: 834px) {
   .p-concept__txt {
+    width: 24.7857142857vw;
     font-size: 1.1428571429vw;
   }
 }

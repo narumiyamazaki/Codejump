@@ -1,7 +1,7 @@
 @use '../../Foundation/vars' as va;
 @use '../../Foundation/mixin';
 
-.p-concept__txt__wrapper{
+.p-work__txt__wrapper{
     @include mixin.mq(pc){
         width:calc(482/964 * 100%);
         display: flex;
