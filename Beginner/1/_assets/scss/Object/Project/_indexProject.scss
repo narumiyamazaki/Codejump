@@ -1,0 +1,23 @@
+@use './p-mv';
+
+//header
+@use './p-logo';
+@use './p-nav__items';
+@use './p-nav__link';
+
+//concept
+@use './p-main';
+@use './p-concept';
+@use './p-concept__img';
+@use './p-concept__heading2';
+@use './p-concept__heading3';
+@use './p-concept__txt';
+@use './p-concept__txt__wrapper';
+
+//work
+@use './p-work';
+@use './p-work__img';
+@use './p-work__txt__wrapper';
+@use './p-work__heading2';
+@use './p-work__heading3';
+@use './p-work__txt';

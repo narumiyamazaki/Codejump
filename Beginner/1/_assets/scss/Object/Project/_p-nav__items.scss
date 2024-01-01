@@ -1,0 +1,11 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-nav__items{
+    display: flex;
+    justify-content: space-between;
+    width:calc(198/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        width:calc(198/va.$pc-design-width*100vw);
+    }
+}
