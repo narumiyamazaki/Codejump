@@ -2,47 +2,95 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>ひよこ豆とアボガドのタコライス</title>
+        <title>portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
         <link href="./css/style.css" rel="stylesheet">
     </head>
 	<body>
-        <img src="./img/mainvisual.jpg" alt="ひよこ豆とアボガドのタコライス" class="p-mv" width="1920" height="900" decoding="async">
         <header class="l-header">
-            <h1 class="p-logo" aria-label="Wooden Jewelry"></h1>
+            <h1 class="p-logo" aria-label="My Work"></h1>
             <nav class="p-nav">
                 <ul class="p-nav__items">
-                    <li class="p-nav__item"><a href="#Concept" class="p-nav__link">Concept</a></li>
-                    <li class="p-nav__item"><a href="#Work" class="p-nav__link">Work</a></li>
-                    <li class="p-nav__item"><a href="mailto:?subject=お問い合わせ" class="p-nav__link">Contact</a></li> 
+                    <li class="p-nav__item"><a href="#About" class="p-nav__link">About</a></li>
+                    <li class="p-nav__item"><a href="#Works" class="p-nav__link">Work</a></li>
+                    <li class="p-nav__item"><a href="#News" class="p-nav__link">News</a></li>
+                    <li class="p-nav__item"><a href="#Contact" class="p-nav__link">Contact</a></li>
+                    <li class="p-nav__item"><a href="#Contact" class="p-nav__icon" aria-label="インスタグラム"></a></li>
                 </ul>
             </nav>
         </header>
+        <img src="./img/mainvisual-sp.jpg" alt="メインビジュアル" class="p-mv--sp" width="640" height="760" decoding="async">
+        <img src="./img/mainvisual-pc.jpg" alt="メインビジュアル" class="p-mv--pc" width="1920" height="420" decoding="async">
         <main class="p-main">
-            <section id="Concept" class="p-concept">
-                <img class="p-concept__img" width="1000" height="1000" decoding="async" src="./img/concept.jpg" alt="左手にはめた指輪">
-                <div class="p-concept__txt__wrapper">
-                    <h2 class="p-concept__heading2">私たちの考えるジュエリーとは</h2>
-                    <h3 class="p-concept__heading3">Concept</h3>
-                    <p class="p-concept__txt">テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテ キストテキストテキストテキスト</p>
+            <section id="About" class="p-about">
+                <h2 class="p-about__heading2">About</h2>
+                <address class="p-about__txt__wrapper">
+                    <p class="p-adress">2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</p>
+                    <a class="p-tel" href="tel:000-0000-0000">tel:000-0000-0000</a>
+                    <a class="p-url" href="www.xxxxxx.jp">url: www.xxxxxx.jp</a>
+                    <a class="p-mail" href="mailto:xxx@xxxxxx.jp">mail: xxx@xxxxxx.jp</a>
+                    <p class="p-profile-txt">プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキ ストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </address>
+            </section>
+            <section id="Works" class="p-works">
+                <h2 class="p-works__heading2">About</h2>
+                <div class="p-works__img__wrapper">
+                    <img class="p-works__img" width="640" height="417" loading="lazy" decoding="async" src="./img/works1.jpg" alt="作成物の写真">
+                    <img class="p-works__img" width="640" height="417" loading="lazy" decoding="async" src="./img/works2.jpg" alt="作成物の写真">
+                    <img class="p-works__img" width="640" height="417" loading="lazy" decoding="async" src="./img/works3.jpg" alt="作成物の写真">
+                    <img class="p-works__img" width="640" height="417" loading="lazy" decoding="async" src="./img/works4.jpg" alt="作成物の写真">
+                    <img class="p-works__img" width="640" height="417" loading="lazy" decoding="async" src="./img/works5.jpg" alt="作成物の写真">
+                    <img class="p-works__img" width="640" height="417" loading="lazy" decoding="async" src="./img/works6.jpg" alt="作成物の写真">
                 </div>
             </section>
-            <section id="Work" class="p-work">
-                <img class="p-work__img" width="1000" height="1000" decoding="async" src="./img/work.jpg" alt="左手にはめた指輪">
-                <div class="p-work__txt__wrapper">
-                    <h2 class="p-work__heading2">ハンドメイドにこだわる理由</h2>
-                    <h3 class="p-work__heading3">Work</h3>
-                    <p class="p-work__txt">テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテ キストテキストテキストテキスト</p>
-                </div>
+            <section id="News"class="p-news">
+                <h2 class="p-news__heading2">News</h2>
+                <ul class="p-news__items">
+                    <li class="p-news__item">
+                        <time class="c-news__datetime" datetime="2020-10-01">2020.XX.XX</time>
+                        <a class="c-news__link">デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</a>
+                    </li>
+                    <li class="p-news__item">
+                        <time class="c-news__datetime" datetime="2020-10-01">2020.XX.XX</time>
+                        <a class="c-news__link">ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</a>
+                    </li>
+                    <li class="p-news__item">
+                        <time class="c-news__datetime" datetime="2019-10-12">2019.XX.XX</time>
+                        <a class="c-news__link">【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</a>
+                    </li>
+                    <li class="p-news__item">
+                        <time class="c-news__datetime" datetime="2019-10-12">2019.XX.XX</time>
+                        <a class="c-news__link">デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</a>
+                    </li>
+                    <li class="p-news__item">
+                        <time class="c-news__datetime" datetime="2019-10-12">2019.XX.XX</time>
+                        <a class="c-news__link">【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="Contact" class="p-contact">
+                <form action="">
+                    <div class="p-contact__item">
+                        <label for="name">NAME</label>
+                        <input id="name" type="text" name="name" class="p-contact__input__name">
+                    </div>
+                    <div class="p-contact__item">
+                        <label for="email">NAME</label>
+                        <input id="email" type="email" name="email" class="p-contact__input__email">
+                    </div>
+                    <div class="p-contact__item">
+                        <label for="textarea">NAME</label>
+                        <textarea id="textarea" class="p-contact__input__textarea"></textarea>
+                    </div>
+                    <button class="c-contact__send-btn" type="submit">
+                        <span class="c-contact__send-btn__txt">送信</span>
+                    </button>
+                </form>
             </section>
         </main>
         <footer class="l-footer">
-            <h4 class="p-logo" aria-label="Wooden Jewelry"></h4>
-            <span class="c-copy-right">&copy;2021 Wooden Jewelry</span>
+            <span class="c-copy-right">&copy;2020 My Work</span>
         </footer>
 	</body>
 </html>

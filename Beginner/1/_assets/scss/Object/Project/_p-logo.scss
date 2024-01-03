@@ -5,10 +5,12 @@
     background-image: url("../img/logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width:max(calc(110/va.$sp-design-width*100vw),110px);
-    height:max(calc(13/va.$sp-design-width*100vw),13px);
+    width:max(calc(143/va.$sp-design-width*100vw));
+    height:max(calc(36/va.$sp-design-width*100vw));
+    margin-bottom:calc(15/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
-        width:max(calc(110/va.$pc-design-width*100vw),110px);
-        height:max(calc(13/va.$pc-design-width*100vw),13px);
+        margin-bottom:0;
+        width:max(calc(120/va.$pc-design-width*100vw));
+        height:max(calc(27/va.$pc-design-width*100vw));
     }
 }

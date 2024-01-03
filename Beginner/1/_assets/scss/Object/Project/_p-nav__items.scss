@@ -2,10 +2,10 @@
 @use '../../Foundation/mixin';
 
 .p-nav__items{
+    width:calc(257/va.$sp-design-width*100vw);
     display: flex;
     justify-content: space-between;
-    width:calc(198/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
-        width:calc(198/va.$pc-design-width*100vw);
+        width:max(316/va.$pc-design-width*100vw);
     }
 }
