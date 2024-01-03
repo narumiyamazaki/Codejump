@@ -4,6 +4,7 @@
 .p-main{
     max-width: 960px;
     padding:0 calc(15/va.$sp-design-width*100vw);
+    margin: 0 auto;
     @include mixin.mq(pc){
         padding:0 4%;
     }
