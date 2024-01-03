@@ -528,7 +528,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .l-header {
     flex-direction: row;
     width: 64.0625vw;
@@ -544,7 +544,7 @@ body {
   padding: 0 4.8vw;
   margin-bottom: 6.1333333333vw;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .l-footer {
     padding: 0 1.40625vw;
     margin: 0 auto 1.796875vw;
@@ -558,9 +558,22 @@ body {
   display: block;
   margin-bottom: 23.2vw;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .p-mv--sp {
     display: none;
+  }
+}
+
+.p-mv--pc {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .p-mv--pc {
+    width: 100vw;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 6.796875vw;
   }
 }
 
@@ -572,7 +585,7 @@ body {
   height: 9.6vw;
   margin-bottom: 4vw;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .p-logo {
     margin-bottom: 0;
     width: 9.375vw;
@@ -584,8 +597,9 @@ body {
   width: 68.5333333333vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .p-nav__items {
     width: 24.6875vw;
   }
@@ -596,7 +610,7 @@ body {
   color: #24292E;
   line-height: 1.3333333333;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .p-nav__link {
     font-size: 1.09375vw;
   }
@@ -606,22 +620,46 @@ body {
   background-image: url("../img/icon-instagram.png");
   width: 5.3333333333vw;
   height: 5.3333333333vw;
+  display: inline-block;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .p-nav__icon {
-    width: 5.3333333333vw;
-    height: 5.3333333333vw;
+    width: 1.5625vw;
+    height: 1.5625vw;
   }
 }
 
 .p-main {
-  max-width: 1000px;
-  padding: 0 4.8vw;
+  max-width: 960px;
+  padding: 0 4vw;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .p-main {
-    padding: 0 1.40625vw;
-    margin: 0 auto 6.5625vw;
+    padding: 0 4%;
+  }
+}
+
+.p-about {
+  margin-bottom: 16.2666666667vw;
+}
+@media screen and (min-width: 600px) {
+  .p-about {
+    margin-bottom: 10.390625vw;
+  }
+}
+
+.p-about__heading2 {
+  font-size: 6.4vw;
+  color: #24292E;
+  line-height: 1.2083333333;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 13.0666666667vw;
+}
+@media screen and (min-width: 600px) {
+  .p-about__heading2 {
+    font-size: 1.875vw;
+    margin-bottom: 5.78125vw;
   }
 }
 
@@ -635,7 +673,7 @@ body {
   color: #24292E;
   line-height: 1.7142857143;
 }
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
   .c-copy-right {
     font-size: 1.09375vw;
   }

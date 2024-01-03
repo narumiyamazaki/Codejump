@@ -1,4 +1,5 @@
 @use './p-mv--sp';
+@use './p-mv--pc';
 
 //header
 @use './p-logo';
@@ -8,3 +9,7 @@
 
 //
 @use './p-main';
+
+//about
+@use './p-about';
+@use './p-about__heading2';
