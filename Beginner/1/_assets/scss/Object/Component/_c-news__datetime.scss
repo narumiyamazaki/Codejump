@@ -1,0 +1,9 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.c-news__datetime{
+    display: block;
+    @include mixin.mq(pc){
+        display: inline;
+    }
+}
